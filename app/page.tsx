@@ -1,7 +1,9 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between">
-      main
+    <main className="flex flex-col items-center justify-between pt-10">
+      <Link href="/resume">my resume</Link>
     </main>
   )
 }

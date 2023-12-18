@@ -7,7 +7,7 @@ const Resume = async () => {
     const {profile, sections, schema} = await getResumeJSON() ?? {};
 
     return <div className="p-8">
-        <h1 className="text-center">Resume of {profile.name}</h1>
+        <h1 className="text-center pb-4">Resume of {profile.name}</h1>
         <Profile {...profile} />
         {!!sections?.length && sections.map((section: Record<string, unknown>) => {
             const type = section.type as string;

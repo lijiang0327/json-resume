@@ -1,0 +1,88 @@
+{
+    "profile": {
+        "name": "Jiang Li",
+        "age": 36,
+        "gender": "Male",
+        "phone": "18866886688"
+    },
+    "sections": [
+        {
+            "type": "jobTarget",
+            "title": "Target",
+            "data": {
+                "address": "Remote",
+                "position": "Front-end Developer"
+            }
+        },
+        {
+            "type": "skills",
+            "title": "Skills",
+            "data": [
+                "A deep understanding of JavaScript object-oriented thinking, understanding of JavaScript closures, prototype chain and inheritance mechanism",
+                "Proficiency in JavaScript, can use native js package specific functions of the library, such as jQuery-like functions of the framework, a variety of commonly used page components",
+                "Familiar with MVVM frameworks such as React, Vue, etc., and understand their data binding and template engine principles"
+            ]
+        },
+        {
+            "type": "projectExperiences",
+            "title": "Project Experiences",
+            "data": [
+                {
+                    "title": "CMS",
+                    "description": "Customer management system",
+                    "technology": ["Typescript", "React", "TailwindCSS", "Koa"],
+                    "responsibility": "Develop main function and deploy to server"
+                },
+                {
+                    "title": "MIS",
+                    "description": "Customer management system",
+                    "technology": ["Typescript", "Vue", "TailwindCSS", "Koa"],
+                    "responsibility": "Develop main function and deploy to server"
+                }
+            ]
+        },
+        {
+            "type": "workExperiences",
+            "title": "Work Experiences",
+            "data": [
+                {
+                    "beginTime": "2021.06",
+                    "endTime": "2023.11",
+                    "companyName": "Compass China",
+                    "departmentName": "PLEX",
+                    "positionName": "FE Dev",
+                    "description": "Responsible for front-end team infrastructure, common package, component maintenance, e2e testing maintenance, old JavaScript projects to TypeScript, etc. projects to TypeScript, etc."
+                },
+                {
+                    "beginTime": "2020.11",
+                    "endTime": "2021.6",
+                    "companyName": "Sequoia China",
+                    "departmentName": "Foundation",
+                    "positionName": "FE Dev",
+                    "description": "Responsible for front-end team infrastructure, common package, component maintenance, e2e testing maintenance, old JavaScript projects to TypeScript, etc. projects to TypeScript, etc."
+                }
+            ]
+        }
+    ],
+    "schema": {
+        "jobTarget": {
+            "address": "String",
+            "position": "String"
+        },
+        "skills": ["String"],
+        "projectExperiences": [{
+            "title": "String",
+            "description": "String",
+            "technology": ["String"],
+            "responsibility": "String"
+        }],
+        "workExperiences": [{
+            "beginTime": "String",
+            "endTime": "String",
+            "companyName": "String",
+            "departmentName": "String",
+            "positionName": "String",
+            "description": "String"
+        }]
+    }
+}
